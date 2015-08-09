@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>KeyboardExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>TestAppGroupKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>834B63931B76D52E000C318F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>834B63A71B76D547000C318F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>834B63B91B76D560000C318F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>834B63C31B76D560000C318F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

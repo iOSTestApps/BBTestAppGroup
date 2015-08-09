@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0640"
-   version = "1.3">
+   wasCreatedForAppExtension = "YES"
+   version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,23 +15,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "834B637E1B76D52E000C318F"
-               BuildableName = "BBTestAppGroup.app"
-               BlueprintName = "BBTestAppGroup"
+               BlueprintIdentifier = "834B63A71B76D547000C318F"
+               BuildableName = "KeyboardExtension.appex"
+               BlueprintName = "KeyboardExtension"
                ReferencedContainer = "container:BBTestAppGroup.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "834B63931B76D52E000C318F"
-               BuildableName = "BBTestAppGroupTests.xctest"
-               BlueprintName = "BBTestAppGroupTests"
+               BlueprintIdentifier = "834B637E1B76D52E000C318F"
+               BuildableName = "BBTestAppGroup.app"
+               BlueprintName = "BBTestAppGroup"
                ReferencedContainer = "container:BBTestAppGroup.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -60,16 +61,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "834B63931B76D52E000C318F"
-               BuildableName = "BBTestAppGroupTests.xctest"
-               BlueprintName = "BBTestAppGroupTests"
-               ReferencedContainer = "container:BBTestAppGroup.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "834B63C31B76D560000C318F"
                BuildableName = "TestAppGroupKitTests.xctest"
                BlueprintName = "TestAppGroupKitTests"
@@ -88,14 +79,15 @@
       </MacroExpansion>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
@@ -114,7 +106,8 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
-      debugDocumentVersioning = "YES">
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
